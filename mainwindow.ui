@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="page_menu">
+     <widget class="QLabel" name="alerta">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>60</y>
+        <width>600</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>18</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(44, 44, 44);
+padding:15px;
+border-radius:15px;
+font: 700 18pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>hola wapos</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="fondo">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/assets/menu.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="play">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>390</y>
+        <width>400</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold;
+background-color: rgb(13, 193, 202);
+color:#000;
+border-radius:20px;</string>
+      </property>
+      <property name="text">
+       <string>PLAY</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="crearGrafo">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>260</y>
+        <width>600</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold;
+background-color: rgb(13, 193, 202);
+color:#000;
+border-radius:20px;</string>
+      </property>
+      <property name="text">
+       <string>CREAR GRAFO</string>
+      </property>
+     </widget>
+     <zorder>fondo</zorder>
+     <zorder>play</zorder>
+     <zorder>crearGrafo</zorder>
+     <zorder>alerta</zorder>
+    </widget>
+    <widget class="QWidget" name="page_juego">
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>1</width>
+        <height>1</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/assets/background.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
