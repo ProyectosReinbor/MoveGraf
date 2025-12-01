@@ -9,10 +9,16 @@
 	"INCLUDE_DIR" : "C:/Users/proye/Documents/MoveGraf/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/MoveGraf_autogen/include",
 	"INPUTS" : 
 	[
+		"C:/Users/proye/Documents/MoveGraf/assets/enemigo.png",
 		"C:/Users/proye/Documents/MoveGraf/assets/menu.jpg",
-		"C:/Users/proye/Documents/MoveGraf/assets/bananas.jpg",
-		"C:/Users/proye/Documents/MoveGraf/assets/arbol.jpg",
-		"C:/Users/proye/Documents/MoveGraf/assets/background.jpg"
+		"C:/Users/proye/Documents/MoveGraf/assets/bananas.png",
+		"C:/Users/proye/Documents/MoveGraf/assets/perdiste.jpg",
+		"C:/Users/proye/Documents/MoveGraf/assets/arbol.png",
+		"C:/Users/proye/Documents/MoveGraf/assets/jugador.png",
+		"C:/Users/proye/Documents/MoveGraf/assets/arbolSeleccionar.png",
+		"C:/Users/proye/Documents/MoveGraf/assets/ganaste.jpg",
+		"C:/Users/proye/Documents/MoveGraf/assets/background.jpg",
+		"C:/Users/proye/Documents/MoveGraf/assets/textura liana.jpg"
 	],
 	"LOCK_FILE" : "C:/Users/proye/Documents/MoveGraf/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/MoveGraf_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

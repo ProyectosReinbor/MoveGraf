@@ -30,6 +30,13 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Grafo.cpp
         Arista.h Arista.cpp
         Vertice.h Vertice.cpp
+        lineasgrafo.h lineasgrafo.cpp
+
+        jugador.h jugador.cpp
+        enemigo.h enemigo.cpp
+        banana.h banana.cpp
+
+
 
     )
 # Define target properties for Android with Qt 6 as:

@@ -10,6 +10,7 @@ private:
     map<string, Vertice*> vertices;
     bool direccion;
 public:
+    map<string, QPoint> posicionesVertices;
     Vertice* getVertice(string identificador);
     map<string, Vertice*> getVertices();
 
@@ -21,7 +22,7 @@ public:
 
     string obtenerTxt();
 
-
+    vector<string> dijkstra(string origen, string destino);
 };
 
 #endif // GRAFO_H

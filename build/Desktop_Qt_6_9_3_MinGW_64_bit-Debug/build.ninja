@@ -97,6 +97,38 @@ build CMakeFiles/MoveGraf.dir/vertice.cpp.obj: CXX_COMPILER__MoveGraf_unscanned_
   OBJECT_DIR = CMakeFiles\MoveGraf.dir
   OBJECT_FILE_DIR = CMakeFiles\MoveGraf.dir
 
+build CMakeFiles/MoveGraf.dir/lineasgrafo.cpp.obj: CXX_COMPILER__MoveGraf_unscanned_Debug C$:/Users/proye/Documents/MoveGraf/lineasgrafo.cpp || cmake_object_order_depends_target_MoveGraf
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\MoveGraf.dir\lineasgrafo.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/proye/Documents/MoveGraf/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/MoveGraf_autogen/include -isystem C:/Qt/6.9.3/mingw_64/include/QtCore -isystem C:/Qt/6.9.3/mingw_64/include -isystem C:/Qt/6.9.3/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.3/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.3/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\MoveGraf.dir
+  OBJECT_FILE_DIR = CMakeFiles\MoveGraf.dir
+
+build CMakeFiles/MoveGraf.dir/jugador.cpp.obj: CXX_COMPILER__MoveGraf_unscanned_Debug C$:/Users/proye/Documents/MoveGraf/jugador.cpp || cmake_object_order_depends_target_MoveGraf
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\MoveGraf.dir\jugador.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/proye/Documents/MoveGraf/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/MoveGraf_autogen/include -isystem C:/Qt/6.9.3/mingw_64/include/QtCore -isystem C:/Qt/6.9.3/mingw_64/include -isystem C:/Qt/6.9.3/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.3/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.3/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\MoveGraf.dir
+  OBJECT_FILE_DIR = CMakeFiles\MoveGraf.dir
+
+build CMakeFiles/MoveGraf.dir/enemigo.cpp.obj: CXX_COMPILER__MoveGraf_unscanned_Debug C$:/Users/proye/Documents/MoveGraf/enemigo.cpp || cmake_object_order_depends_target_MoveGraf
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\MoveGraf.dir\enemigo.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/proye/Documents/MoveGraf/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/MoveGraf_autogen/include -isystem C:/Qt/6.9.3/mingw_64/include/QtCore -isystem C:/Qt/6.9.3/mingw_64/include -isystem C:/Qt/6.9.3/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.3/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.3/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\MoveGraf.dir
+  OBJECT_FILE_DIR = CMakeFiles\MoveGraf.dir
+
+build CMakeFiles/MoveGraf.dir/banana.cpp.obj: CXX_COMPILER__MoveGraf_unscanned_Debug C$:/Users/proye/Documents/MoveGraf/banana.cpp || cmake_object_order_depends_target_MoveGraf
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\MoveGraf.dir\banana.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/proye/Documents/MoveGraf/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/MoveGraf_autogen/include -isystem C:/Qt/6.9.3/mingw_64/include/QtCore -isystem C:/Qt/6.9.3/mingw_64/include -isystem C:/Qt/6.9.3/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.3/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.3/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\MoveGraf.dir
+  OBJECT_FILE_DIR = CMakeFiles\MoveGraf.dir
+
 build CMakeFiles/MoveGraf.dir/MoveGraf_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CXX_COMPILER__MoveGraf_unscanned_Debug C$:/Users/proye/Documents/MoveGraf/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/MoveGraf_autogen/EWIEGA46WW/qrc_resources.cpp || cmake_object_order_depends_target_MoveGraf
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\MoveGraf.dir\MoveGraf_autogen\EWIEGA46WW\qrc_resources.cpp.obj.d
@@ -113,7 +145,7 @@ build CMakeFiles/MoveGraf.dir/MoveGraf_autogen/EWIEGA46WW/qrc_resources.cpp.obj:
 #############################################
 # Link the executable MoveGraf.exe
 
-build MoveGraf.exe: CXX_EXECUTABLE_LINKER__MoveGraf_Debug CMakeFiles/MoveGraf.dir/MoveGraf_autogen/mocs_compilation.cpp.obj CMakeFiles/MoveGraf.dir/main.cpp.obj CMakeFiles/MoveGraf.dir/mainwindow.cpp.obj CMakeFiles/MoveGraf.dir/grafo.cpp.obj CMakeFiles/MoveGraf.dir/arista.cpp.obj CMakeFiles/MoveGraf.dir/vertice.cpp.obj CMakeFiles/MoveGraf.dir/MoveGraf_autogen/EWIEGA46WW/qrc_resources.cpp.obj | C$:/Qt/6.9.3/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.3/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.3/mingw_64/lib/libQt6Core.a C$:/Qt/6.9.3/mingw_64/lib/libQt6EntryPoint.a || MoveGraf_autogen MoveGraf_autogen_timestamp_deps
+build MoveGraf.exe: CXX_EXECUTABLE_LINKER__MoveGraf_Debug CMakeFiles/MoveGraf.dir/MoveGraf_autogen/mocs_compilation.cpp.obj CMakeFiles/MoveGraf.dir/main.cpp.obj CMakeFiles/MoveGraf.dir/mainwindow.cpp.obj CMakeFiles/MoveGraf.dir/grafo.cpp.obj CMakeFiles/MoveGraf.dir/arista.cpp.obj CMakeFiles/MoveGraf.dir/vertice.cpp.obj CMakeFiles/MoveGraf.dir/lineasgrafo.cpp.obj CMakeFiles/MoveGraf.dir/jugador.cpp.obj CMakeFiles/MoveGraf.dir/enemigo.cpp.obj CMakeFiles/MoveGraf.dir/banana.cpp.obj CMakeFiles/MoveGraf.dir/MoveGraf_autogen/EWIEGA46WW/qrc_resources.cpp.obj | C$:/Qt/6.9.3/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.3/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.3/mingw_64/lib/libQt6Core.a C$:/Qt/6.9.3/mingw_64/lib/libQt6EntryPoint.a || MoveGraf_autogen MoveGraf_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.9.3/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.9.3/mingw_64/lib/libQt6Gui.a  C:/Qt/6.9.3/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.9.3/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -217,7 +249,7 @@ build MoveGraf_autogen/timestamp MoveGraf_autogen/mocs_compilation.cpp | ${cmake
 #############################################
 # Custom command for MoveGraf_autogen\EWIEGA46WW\qrc_resources.cpp
 
-build MoveGraf_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}MoveGraf_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND C$:/Users/proye/Documents/MoveGraf/resources.qrc CMakeFiles/MoveGraf_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json C$:/Users/proye/Documents/MoveGraf/assets/menu.jpg C$:/Users/proye/Documents/MoveGraf/assets/bananas.jpg C$:/Users/proye/Documents/MoveGraf/assets/arbol.jpg C$:/Users/proye/Documents/MoveGraf/assets/background.jpg C$:/Qt/6.9.3/mingw_64/bin/rcc.exe C$:/Qt/6.9.3/mingw_64/bin/rcc.exe || MoveGraf_autogen MoveGraf_autogen_timestamp_deps
+build MoveGraf_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}MoveGraf_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND C$:/Users/proye/Documents/MoveGraf/resources.qrc CMakeFiles/MoveGraf_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json C$:/Users/proye/Documents/MoveGraf/assets/enemigo.png C$:/Users/proye/Documents/MoveGraf/assets/menu.jpg C$:/Users/proye/Documents/MoveGraf/assets/bananas.png C$:/Users/proye/Documents/MoveGraf/assets/perdiste.jpg C$:/Users/proye/Documents/MoveGraf/assets/arbol.png C$:/Users/proye/Documents/MoveGraf/assets/jugador.png C$:/Users/proye/Documents/MoveGraf/assets/arbolSeleccionar.png C$:/Users/proye/Documents/MoveGraf/assets/ganaste.jpg C$:/Users/proye/Documents/MoveGraf/assets/background.jpg C$:/Users/proye/Documents/MoveGraf/assets/textura$ liana.jpg C$:/Qt/6.9.3/mingw_64/bin/rcc.exe C$:/Qt/6.9.3/mingw_64/bin/rcc.exe || MoveGraf_autogen MoveGraf_autogen_timestamp_deps
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\proye\Documents\MoveGraf\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/proye/Documents/MoveGraf/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/MoveGraf_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for resources.qrc
   restat = 1

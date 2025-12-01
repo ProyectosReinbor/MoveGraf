@@ -1,8 +1,14 @@
 <RCC>
     <qresource prefix="/">
-        <file>assets/menu.jpg</file>
         <file>assets/background.jpg</file>
-        <file>assets/arbol.jpg</file>
-        <file>assets/bananas.jpg</file>
+        <file>assets/arbol.png</file>
+        <file>assets/arbolSeleccionar.png</file>
+        <file>assets/bananas.png</file>
+        <file>assets/enemigo.png</file>
+        <file>assets/ganaste.jpg</file>
+        <file>assets/menu.jpg</file>
+        <file>assets/perdiste.jpg</file>
+        <file>assets/textura liana.jpg</file>
+        <file>assets/jugador.png</file>
     </qresource>
 </RCC>

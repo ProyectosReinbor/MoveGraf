@@ -18,17 +18,32 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>0</y>
+      <y>-50</y>
       <width>800</width>
       <height>600</height>
      </rect>
     </property>
+    <widget class="QWidget" name="pageMatriz">
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>60</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>matriz</string>
+      </property>
+     </widget>
+    </widget>
     <widget class="QWidget" name="page_menu">
      <widget class="QLabel" name="alerta">
       <property name="geometry">
        <rect>
         <x>90</x>
-        <y>60</y>
+        <y>70</y>
         <width>600</width>
         <height>300</height>
        </rect>
@@ -129,10 +144,94 @@ border-radius:20px;</string>
        <string>CREAR GRAFO</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>380</y>
+        <width>181</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>matriz adyacencia</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>60</y>
+        <width>491</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>DONKEY MOVE DRAFS</string>
+      </property>
+     </widget>
      <zorder>fondo</zorder>
      <zorder>play</zorder>
      <zorder>crearGrafo</zorder>
      <zorder>alerta</zorder>
+     <zorder>pushButton_3</zorder>
+     <zorder>label_7</zorder>
+    </widget>
+    <widget class="QWidget" name="pageGanaste">
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>-20</y>
+        <width>801</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/assets/ganaste.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>450</y>
+        <width>301</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Ganaste</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>510</y>
+        <width>261</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Jugar otra vez</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_juego">
      <widget class="QLabel" name="label_2">
@@ -169,6 +268,126 @@ border-radius:20px;</string>
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="pesosColor">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>440</y>
+        <width>121</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 174, 255);
+color: rgb(0, 0, 0);
+padding:15px;
+border-radius:15px;
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Pesos&lt;/span&gt;&lt;/p&gt;&lt;p&gt;1&lt;/p&gt;&lt;p&gt;2&lt;/p&gt;&lt;p&gt;3&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pesoNegro">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>500</y>
+        <width>63</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pesoNegro_2">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>530</y>
+        <width>63</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pesoNegro_3">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>560</y>
+        <width>63</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pagePerdiste">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>200</y>
+        <width>211</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Perdiste</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>801</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/assets/perdiste.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>420</y>
+        <width>191</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>jugar otra vez</string>
+      </property>
+     </widget>
+     <zorder>label_3</zorder>
+     <zorder>label</zorder>
+     <zorder>pushButton</zorder>
     </widget>
    </widget>
   </widget>

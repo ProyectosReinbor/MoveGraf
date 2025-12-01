@@ -348,27 +348,51 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/proye/Documents/MoveGraf/Grafo.h",
+			"MU",
+			"EWIEGA46WW/moc_Grafo.cpp",
+			null
+		],
+		[
+			"C:/Users/proye/Documents/MoveGraf/Vertice.h",
+			"MU",
+			"EWIEGA46WW/moc_Vertice.cpp",
+			null
+		],
+		[
 			"C:/Users/proye/Documents/MoveGraf/arista.h",
 			"MU",
 			"EWIEGA46WW/moc_arista.cpp",
 			null
 		],
 		[
-			"C:/Users/proye/Documents/MoveGraf/grafo.h",
+			"C:/Users/proye/Documents/MoveGraf/banana.h",
 			"MU",
-			"EWIEGA46WW/moc_grafo.cpp",
+			"EWIEGA46WW/moc_banana.cpp",
+			null
+		],
+		[
+			"C:/Users/proye/Documents/MoveGraf/enemigo.h",
+			"MU",
+			"EWIEGA46WW/moc_enemigo.cpp",
+			null
+		],
+		[
+			"C:/Users/proye/Documents/MoveGraf/jugador.h",
+			"MU",
+			"EWIEGA46WW/moc_jugador.cpp",
+			null
+		],
+		[
+			"C:/Users/proye/Documents/MoveGraf/lineasgrafo.h",
+			"MU",
+			"EWIEGA46WW/moc_lineasgrafo.cpp",
 			null
 		],
 		[
 			"C:/Users/proye/Documents/MoveGraf/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
-			null
-		],
-		[
-			"C:/Users/proye/Documents/MoveGraf/vertice.h",
-			"MU",
-			"EWIEGA46WW/moc_vertice.cpp",
 			null
 		]
 	],
@@ -444,7 +468,11 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/proye/Documents/MoveGraf/arista.cpp", "MU", null ],
+		[ "C:/Users/proye/Documents/MoveGraf/banana.cpp", "MU", null ],
+		[ "C:/Users/proye/Documents/MoveGraf/enemigo.cpp", "MU", null ],
 		[ "C:/Users/proye/Documents/MoveGraf/grafo.cpp", "MU", null ],
+		[ "C:/Users/proye/Documents/MoveGraf/jugador.cpp", "MU", null ],
+		[ "C:/Users/proye/Documents/MoveGraf/lineasgrafo.cpp", "MU", null ],
 		[ "C:/Users/proye/Documents/MoveGraf/main.cpp", "MU", null ],
 		[ "C:/Users/proye/Documents/MoveGraf/mainwindow.cpp", "MU", null ],
 		[ "C:/Users/proye/Documents/MoveGraf/vertice.cpp", "MU", null ]
