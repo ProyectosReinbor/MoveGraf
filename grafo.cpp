@@ -99,7 +99,7 @@
             }
         }
 
-        // Si no hay camino
+        // Si no hay camino7
         if (dist[destino] == std::numeric_limits<int>::max()) {
             return {};
         }
